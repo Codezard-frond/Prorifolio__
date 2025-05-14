@@ -9,7 +9,7 @@ function Navbar() {
        <img className="w-[200px] h-[70px] object-cover" src="./images/photo_2025-05-05_23-49-40-Photoroom.png" alt="" />
       </Link>
 
-      <ul className="flex gap-4 items-center">
+      <ul className="flex gap-4 items-center max-w-[300px] w-full mr-16">
         <li>
           <Link className="btn btn-neutral bg-black/20 border-none" to="/">
             Home

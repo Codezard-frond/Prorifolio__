@@ -10,10 +10,12 @@ body{
   border-radius: 20px;
   max-width: 400px ;
   width: 100%;
+
 }
 .img__content:hover {
   box-shadow: 15px 30px 80px 5px rgba(255, 0, 0, 0.527);
   transition: 0.6s ease;
+  transform: translatey(-30px);
 }
 
 @media (max-width:800px) {
@@ -31,6 +33,9 @@ body{
                margin: 0 auto;
                margin-top: 50px;
           }
+     }
+     .port__skils{
+          display: none;
      }
 
 }
@@ -57,4 +62,16 @@ body{
           }
      }
 
+}
+
+.port__skils{
+     padding: 15px 30px; 
+     border-radius: 12px;
+}
+
+.port__skils:hover{
+     background-color: #7B82FE;
+     transform: translateY(-20px);
+     transition: 0.6s ease;
+     box-shadow: 10px 10px 10px
 }

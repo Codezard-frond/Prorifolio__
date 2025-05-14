@@ -4,7 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <div className="mt-auto w-full bg-black/30 px-10 py-5">
+    <div className="mt-auto w-full bg-black/30 px-10 py-5 ">
       <div className="flex justify-between items-center ">
        <a href=""> <i className="fa-solid fa-arrow-up-from-bracket text-2xl"></i></a>
        <div className="flex items-center gap-1 text-2xl">
